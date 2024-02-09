@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Unit Converter</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <h1>Simple Unit Converter</h1>
+    <p id="p-el">Select what you want to convert</p>
+    <select name="unit" id="unit-select">
+        <option value="ft-m">ft -> m</option>
+        <option value="yd-m">yd -> m</option>
+        <option value="in-m">in -> m</option>
+        <option value="oz-g">oz -> g</option>
+        <option value="lb-kg">lb -> kg</option>
+        <option value="m/s-km/h">m/s -> km/h</option>
+        <option value="mph-km/h">mph -> km/h</option>
+        <option value="kn-km/h">kn -> km/h</option>
+    </select><br>
+    <input type="number" id="input-el" placeholder="*Value of the main unit">
+    <button id="convert-btn">Convert Units</button>
+    <p id="convert-result"></p>
+    <script src="script.js"></script>
+</body>
+</html>

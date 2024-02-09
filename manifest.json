@@ -1,0 +1,9 @@
+{
+    "manifest-version": 3,
+    "version": "1.0",
+    "name": "Simple Unit Converter",
+    "action": {
+        "default_popup": "index.html",
+        "default-icon": "unit.jpg"
+    }
+}
