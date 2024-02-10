@@ -3,6 +3,10 @@ const convertBtn = document.querySelector("#convert-btn")
 const inputEl = document.querySelector("#input-el")
 const unitSelect = document.querySelector("#unit-select")
 
+unitSelect.addEventListener("change", function() {
+    convertResult.innerHTML = ""
+})
+
 convertBtn.addEventListener("click", function() {
     if(inputEl.value === "") {
         convertResult.innerHTML = ""
