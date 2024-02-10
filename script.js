@@ -18,7 +18,7 @@ convertBtn.addEventListener("click", function() {
             inputEl.value = ""
         } else if (units === "in-m"){
             const unitResult = inputEl.value * 0.0254
-            convertResult.innerHTML = `${inputEl.value} lb = ${unitResult.toFixed(4)} kg`
+            convertResult.innerHTML = `${inputEl.value} in = ${unitResult.toFixed(4)} m`
             inputEl.value = ""
         } else if (units === "oz-g"){
             const unitResult = inputEl.value * 28.3495231
